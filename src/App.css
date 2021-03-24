@@ -1,4 +1,24 @@
-.App {
+/* ........................................B O D Y..................................... */
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+/* .......................Welcome to the Gallery of Horns (<h1>)....................... */
+/* h1 {
+  font-family: import some nonsense from google!;
+} */
+/* .......................................C O D E ..................................... */
+/* .......................................M A I N ..................................... */
+/* ...................................G A L L E R Y (<div="gallery">).................. */
+/* .....................................I M A G E S.................................... */
+/* ...............................D E S C R I P T I O N (<p>).......................... */
+/* .....................................F O O T E R.................................... */
+/* ..................................S T O C K . C S S ................................ */
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +55,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
