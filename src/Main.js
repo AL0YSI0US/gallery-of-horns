@@ -25,16 +25,18 @@ class Main extends React.Component {
 
       <HornedBeast title="Narwhal costume" img_url="https://ae01.alicdn.com/kf/HTB18GwSQVXXXXaZaXXXq6xXFXXXh/Animal-Cosplay-Costume-Narwhal-Onesie-Mens-Womens-Cartoon-Whale-Pajamas.jpg" keyword="narwhal" description="A woman wearing a blue narwhal costume" alt="" />
 
-      <HornedBeast title="Rhino costume" img_url="https://www.shopmascot.com/image/cache/mascotnew/new196-800x800.jpg" keyword="rhino" description="Mascots have to get their costumes somewhere" alt="" />
+      
+      <HornedBeast title="#truth" img_url="https://i.pinimg.com/originals/16/cf/2a/16cf2a0b3fd51b9bee08bb6296193b75.jpg" keyword="narwhal" description="The truth behind narwhals" alt="" />
 
+      <HornedBeast title="Rhino costume" img_url="https://www.shopmascot.com/image/cache/mascotnew/new196-800x800.jpg" keyword="rhino" description="Mascots have to get their costumes somewhere" alt="" />
       
       <HornedBeast title="Believe" img_url="https://www.tinselbox.com/wp-content/uploads/2018/03/I-BELIEVE-IN-UNICORNS-FREE-PRINTABLE-WATERCOLOR-7-of-1.jpg" keyword="unicorn" description="I believe in unicorns, do you?" alt="" />
       
-      <HornedBeast title="Markhor" image_url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg/220px-Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg"
-      keyword="markhor" description="These wild goats eat snakes, then secrete a foam that locals fight over for the antivemon properties -- how cool is that?" alt="" />
-      
       <HornedBeast title="Baby markhor" img_url="http://www.zooborns.com/.a/6a010535647bf3970b0223c84d5959200c-800wi" keyword="markhor" description="Even the babies are adorable" alt="" />
       
+      <HornedBeast title="Markhor" img_url="https://wildlifeinformer.com/wp-content/uploads/2020/08/capra-ibex-large-horns.jpg"
+      keyword="markhor" description="These wild goats eat snakes, then secrete a foam that locals fight over for the antivemon properties -- how cool is that?" alt="" />
+            
       <HornedBeast title="Mouflon" img_url="https://images.unsplash.com/photo-1558560063-931ca9822a0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" keyword="mouflon" description="Those horns though" alt="" />
 
       <HornedBeast title="Addax" img_url="https://images.unsplash.com/photo-1556890077-020ec300d5db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80" keyword="addax" description="This guy is basically extinct but survives well in captivity, so they're frequently found in zoos" alt="" />
