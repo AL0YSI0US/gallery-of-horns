@@ -44,7 +44,7 @@ Finish time: _____
 Actual time needed to complete: _____
 ```
 
-**Feature 1: Display a Modal**
+**Feature 1: Display a Modal** - Due Saturday Mar 27 by 11:59pm
 ```bash
 Estimate of time needed to complete: _____
 
@@ -65,6 +65,7 @@ Finish time: _____
 
 Actual time needed to complete: _____
 ```
+
 ### 🌐 R E S O U R C E S
 
 * **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 🛠️
