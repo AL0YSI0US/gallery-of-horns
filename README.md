@@ -1,7 +1,6 @@
 # Game of Horns
 
-**Feature #1: Display images**
-
+**Feature 1: Display images**
 ```bash
 Estimate of time needed to complete: 60 minutes
 
@@ -12,10 +11,9 @@ Finish time: 5:57
 Actual time needed to complete: 57 minutes
 ```
 
-**Feature #2: Allow users to vote for their favorite beast**
-
+**Feature 2: Allow users to vote for their favorite beast**
 ```bash
-Estimate of time needed to complete: 120 minutes
+Estimate of time needed to complete: 180 minutes
 
 Start time: _____
 
@@ -25,7 +23,6 @@ Actual time needed to complete: _____
 ```
 
 **Feature 3: Bootstrap**
-
 ```bash
 Estimate of time needed to complete: _____
 
@@ -37,7 +34,6 @@ Actual time needed to complete: _____
 ```
 
 ✨**Stretch Goal: Add Interaction**
-
 ```bash
 Estimate of time needed to complete: _____
 
@@ -48,6 +44,27 @@ Finish time: _____
 Actual time needed to complete: _____
 ```
 
+**Feature 1: Display a Modal**
+```bash
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+```
+
+✨**Stretch Goal: Fuzzy search**
+```bash
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+```
 ### 🌐 R E S O U R C E S
 
 * **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 🛠️
