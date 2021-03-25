@@ -2,7 +2,7 @@
 
 **Feature #1: Display images**
 
-```
+```bash
 Estimate of time needed to complete: 60 minutes
 
 Start time: 5:00
@@ -14,8 +14,8 @@ Actual time needed to complete: 57 minutes
 
 **Feature #2: Allow users to vote for their favorite beast**
 
-```
-Estimate of time needed to complete: _____
+```bash
+Estimate of time needed to complete: 120 minutes
 
 Start time: _____
 
@@ -26,7 +26,7 @@ Actual time needed to complete: _____
 
 **Feature 3: Bootstrap**
 
-```
+```bash
 Estimate of time needed to complete: _____
 
 Start time: _____
@@ -38,7 +38,7 @@ Actual time needed to complete: _____
 
 ✨**Stretch Goal: Add Interaction**
 
-```
+```bash
 Estimate of time needed to complete: _____
 
 Start time: _____
