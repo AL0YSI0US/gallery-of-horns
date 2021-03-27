@@ -1,48 +1,36 @@
-import './App.css';
 import React from 'react';
-// import image from 'react-bootstrap/image';
-// import Modal from 'react-bootstrap/Modal';
+import Card from 'react-bootstrap';
 
 class HornedBeast extends React.Component {
-  
-  constructor(props){
+  constructor(props) {
     super(props);
+
     this.state = {
-      numberOfClicks: 0
+      slapaaHeartOnIt: 0,
     }
   }
 
-  favoriteClicked = () => {
-    this.setState({numberOfClicks: this.state.numberOfClicks + 1});
+buttonClicked = () => {
+  this.setState({ slapaaHeartOnIt: this.state.slapaaHeartOnIt + 1 });
+}
+  render() {
+    return (
+      <div>
+        <Card style={{ width: '18rem' }}
+          onClick={this.buttonClicked}>
+          <Card.Img variant="top" src={this.props.img} />
+            <Card.Body>
+               <Card.Title>{this.props.title}</Card.Title>
+                 <Card.Text>{this.props.description}
+                </Card.Text>
+              <Card.Text>
+                 ❤️ = {this.state.slapaaHeartOnIt}
+              </Card.Text>
+            </Card.Body>
+        </Card>
+      </div>
+    )
   }
-  showModal: false
-};
-
-console.log(data.map(beast => beast.title));
-chosenImage = () => {
-  console.log('image clicked!');
-  this.setState({
-    numberOfExclamationPoints: this.state.numberOfExclamationPoints + 1
-  });
-}
-
-showModal = () => {
-  this.setState({showModal: true});
-}
-
-hideModal = () => {
-  this.setState({showModal: false})
-}
-
-  render(){
-    return(
-     <div>
-       <h2>{this.props.title}</h2>
-       <img src={this.props.img_url} alt={this.props.alt} title={this.props.title}></img>
-       <p>{this.props.description}</p>
-       {this.numberOfClicks}
-     </div> 
-  )
 }
 
 export default HornedBeast;
