@@ -15,11 +15,11 @@ Actual time needed to complete: 57 minutes
 ```bash
 Estimate of time needed to complete: 180 minutes
 
-Start time: _____
+Start time: 6:00
 
-Finish time: _____
+Finish time: 830
 
-Actual time needed to complete: _____
+Actual time needed to complete: 90
 ```
 
 **Feature 3: Bootstrap**
