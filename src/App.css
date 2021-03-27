@@ -8,9 +8,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 /* .......................Welcome to the Gallery of Horns (<h1>)....................... */
-/* h1 {
-  font-family: import some nonsense from google!;
-} */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
 /* .......................................C O D E ..................................... */
 /* .......................................M A I N ..................................... */
 /* ...................................G A L L E R Y (<div="gallery">).................. */

@@ -1,13 +1,15 @@
 import HornedBeast from './HornedBeast.js';
 
 import React from 'react';
-import CardDeck from 'react-bootstrap'
+import CardDeck from 'react-bootstrap/CardDeck'
+
 
 
 class Main extends React.Component {
   render() {
     return (
       <div>
+       
         <CardDeck>
           {this.props.beasts.map((thisLilBeastie, index) => {
             return (
