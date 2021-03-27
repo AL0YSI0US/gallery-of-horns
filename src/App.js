@@ -1,19 +1,29 @@
+import React from 'react';
 import './App.css';
-import React from 'react'; 
+
 import Header from './Header.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
-import data from './data.json';
-import HornedBeast from './HornedBeast.js';
+
+import data from './data.json'
+
 
 class App extends React.Component {
-  render(){
-    return(
-    <div>
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      lilBeastieData: data,
+    }
+  }
+
+  render() {
+    return (
+      <div>
+        <Header />
+        <Main beasts={this.state.lilBeastieData} />
+        <Footer />
+      </div> 
     )
   }
 }
