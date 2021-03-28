@@ -10,12 +10,11 @@ import SelectedBeast from './SelectedBeast'
 import data from './data.json'
 
 // Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap
+// following lecture from class 02 and cant get the modal to work
+
 class App extends React.Component {
   constructor(props) {
     super(props);
-
-
-
     this.state = {
       displayModal: false,
       lilBeastieData: data,
@@ -26,8 +25,6 @@ class App extends React.Component {
   showModal = (name) => {
 
     const selectedBeast = data.find(beast => beast.title === name);
-    // console.log(selectedBeast);
-    
     this.setState({selectedBeast, displayModal:true});
   }
 
@@ -53,4 +50,41 @@ class App extends React.Component {
   }
 }
 
+
+
 export default App;
+
+
+// https://react-bootstrap.netlify.app/components/modal/#modals
+
+// function Example() {
+//   const [show, setShow] = useState(false);
+
+//   const handleClose = () => setShow(false);
+//   const handleShow = () => setShow(true);
+
+//   return (
+//     <>
+//       <Button variant="primary" onClick={handleShow}>
+//         Launch demo modal
+//       </Button>
+
+//       <Modal show={show} onHide={handleClose}>
+//         <Modal.Header closeButton>
+//           <Modal.Title>Modal heading</Modal.Title>
+//         </Modal.Header>
+//         <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+//         <Modal.Footer>
+//           <Button variant="secondary" onClick={handleClose}>
+//             Close
+//           </Button>
+//           <Button variant="primary" onClick={handleClose}>
+//             Save Changes
+//           </Button>
+//         </Modal.Footer>
+//       </Modal>
+//     </>
+//   );
+// }
+
+// render(<Example />);
