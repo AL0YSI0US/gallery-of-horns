@@ -1,6 +1,8 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
+// this will track what was clicked and send it to App.js 
+// the onClick should be happening on the image instead of the Card. Bryant
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -33,5 +35,3 @@ buttonClicked = () => {
 }
 
 export default HornedBeast;
-
-// this will track what was clicked and send it to app....

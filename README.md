@@ -1,5 +1,7 @@
 # Game of Horns
 
+> *A note on cloning and forking* : Don't forget to say so in your REAMDME 😉
+
 **Feature 1: Display images**
 
 ```bash
@@ -29,11 +31,11 @@ Actual time needed to complete: 90
 ```bash
 Estimate of time needed to complete: 180 minutes
 
-Start time: _____
+Start time: yesterday
 
-Finish time: _____
+Finish time: tomorrow
 
-Actual time needed to complete: _____
+Actual time needed to complete: too long
 ```
 
 ✨**Stretch Goal: Add Interaction**
@@ -51,13 +53,13 @@ Actual time needed to complete: _____
 **Feature 1: Display a Modal** - Due Saturday Mar 27 by 11:59pm
 
 ```bash
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 180 minutes
 
-Start time: _____
+Start time: yesterday
 
-Finish time: _____
+Finish time: tomorrow
 
-Actual time needed to complete: _____
+Actual time needed to complete: too long
 ```
 
 ✨**Stretch Goal: Fuzzy search**
@@ -81,7 +83,7 @@ Actual time needed to complete: _____
 + `React - Button` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/buttons/)
 + `React CarDeck` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/cards/)
 + `React - Modal` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/modal/#modals)
-
++ `.find()` [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
 
 **To ensure I am installing both parts of Bootstrap, I use the following installation command:**
