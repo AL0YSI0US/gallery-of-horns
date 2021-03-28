@@ -5,7 +5,7 @@ import Header from './Header.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
 
-import SelectedBeast from './selectedBeast'
+import SelectedBeast from './SelectedBeast'
 // Import the data.json file into your App component and send that data into the Main component  [[[x- done]]]
 import data from './data.json'
 
@@ -42,7 +42,6 @@ class App extends React.Component {
           showModal={this.showModal}
           beasts={this.state.lilBeastieData} 
         />
-         
         <SelectedBeast 
           displayModal={this.state.displayModal}
           hideModal={this.hideModal}

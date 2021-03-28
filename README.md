@@ -77,20 +77,25 @@ Actual time needed to complete: _____
 * **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 🛠️
 * **.gitignore**
 * React [Documentation](https://reactjs.org/docs/getting-started.html)
-* .
 
-To ensure I am installing both parts of Bootstrap I use the following installation line:
++ `React - Button` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/buttons/)
++ `React CarDeck` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/cards/)
++ `React - Modal` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/modal/#modals)
+
+
+
+**To ensure I am installing both parts of Bootstrap, I use the following installation command:**
 
 ````javascript
 npm install react-bootstrap bootstrap
 
-             resource: TA hexx
+                                     resource: TA hexx
 ````
-
 
 ### 👥 C O L L A B O R A T O R S
 
-*
+* Michelle helped me unbreak my page when It was failing to render. Turned out I only had one part of bootstrap installed. which leads me to my next thank you...
+* Hexx provided me with the `npm install react-bootstrap bootstrap` command line to ensure I'm getting all the goods when I set up a project.
 
 ### 🤔 R E F L E C T I O N S
 
