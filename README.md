@@ -1,6 +1,7 @@
 # Game of Horns
 
 **Feature 1: Display images**
+
 ```bash
 Estimate of time needed to complete: 60 minutes
 
@@ -12,6 +13,7 @@ Actual time needed to complete: 57 minutes
 ```
 
 **Feature 2: Allow users to vote for their favorite beast**
+
 ```bash
 Estimate of time needed to complete: 180 minutes
 
@@ -23,8 +25,9 @@ Actual time needed to complete: 90
 ```
 
 **Feature 3: Bootstrap**
+
 ```bash
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 180 minutes
 
 Start time: _____
 
@@ -34,6 +37,7 @@ Actual time needed to complete: _____
 ```
 
 ✨**Stretch Goal: Add Interaction**
+
 ```bash
 Estimate of time needed to complete: _____
 
@@ -45,6 +49,7 @@ Actual time needed to complete: _____
 ```
 
 **Feature 1: Display a Modal** - Due Saturday Mar 27 by 11:59pm
+
 ```bash
 Estimate of time needed to complete: _____
 
@@ -56,6 +61,7 @@ Actual time needed to complete: _____
 ```
 
 ✨**Stretch Goal: Fuzzy search**
+
 ```bash
 Estimate of time needed to complete: _____
 
@@ -71,6 +77,16 @@ Actual time needed to complete: _____
 * **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 🛠️
 * **.gitignore**
 * React [Documentation](https://reactjs.org/docs/getting-started.html)
+* .
+
+To ensure I am installing both parts of Bootstrap I use the following installation line:
+
+````javascript
+npm install react-bootstrap bootstrap
+
+             resource: TA hexx
+````
+
 
 ### 👥 C O L L A B O R A T O R S
 

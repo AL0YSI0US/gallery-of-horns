@@ -12,7 +12,8 @@ class HornedBeast extends React.Component {
   }
 
 buttonClicked = () => {
-  this.setState({ slapaaHeartOnIt: this.state.slapaaHeartOnIt + 1 });
+  this.setState({slapaaHeartOnIt: this.state.slapaaHeartOnIt + 1});
+  this.props.showModal(this.props.title);
 }
   render() {
     return (
@@ -32,3 +33,5 @@ buttonClicked = () => {
 }
 
 export default HornedBeast;
+
+// this will track what was clicked and send it to app....
