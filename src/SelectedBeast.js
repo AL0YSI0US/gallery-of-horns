@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
+// Create a SelectedBeast component and include it in your App
+// Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap
 
-
-export default SelectedBeast;
 class SelectedBeast extends React.Component {
   render() {
     return (
