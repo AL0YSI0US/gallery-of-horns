@@ -9,7 +9,7 @@ import SelectedBeast from './SelectedBeast'
 // Import the data.json file into your App component and send that data into the Main component  [[[x- done]]]
 import data from './data.json'
 
-
+// Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap
 class App extends React.Component {
   constructor(props) {
     super(props);
