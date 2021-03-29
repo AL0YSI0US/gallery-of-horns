@@ -1,8 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
-// this will track what was clicked and send it to App.js 
-// the onClick should be happening on the image instead of the Card. Bryant
+//             This will all need to track what was clicked and send it to App.js 
+//
+// x-------------------------------------------------------------------------------T O . D O-------x]]]]
+// "The onClick should be happening on the image instead of the Card." 
+//                           - TA Bryant
+// x-------------------------------------------------------------------------------T O . D O-------x]]]]
 
 class HornedBeast extends React.Component {
   constructor(props) {

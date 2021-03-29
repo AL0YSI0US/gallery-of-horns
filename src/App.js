@@ -6,11 +6,17 @@ import Main from './Main.js';
 import Footer from './Footer.js';
 
 import SelectedBeast from './SelectedBeast'
-// Import the data.json file into your App component and send that data into the Main component  [[[x- done]]]
+
 import data from './data.json'
 
-// Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap
-// following lecture from class 02 and cant get the modal to work
+// x-------------------------------------------------------------------------------T O . D O-------x]]]]
+// [[[x- done]]] Import the data.json file into your App component 
+//               and send that data into the Main component 
+//
+// [[[x- done]]] Use the state in the App to render an individual 
+//               beast in a Modal in the SelectedBeast component 
+//               using React Bootstrap.
+// x-------------------------------------------------------------------------------T O . D O-------x]]]]
 
 class App extends React.Component {
   constructor(props) {
@@ -53,38 +59,3 @@ class App extends React.Component {
 
 
 export default App;
-
-
-// https://react-bootstrap.netlify.app/components/modal/#modals
-
-// function Example() {
-//   const [show, setShow] = useState(false);
-
-//   const handleClose = () => setShow(false);
-//   const handleShow = () => setShow(true);
-
-//   return (
-//     <>
-//       <Button variant="primary" onClick={handleShow}>
-//         Launch demo modal
-//       </Button>
-
-//       <Modal show={show} onHide={handleClose}>
-//         <Modal.Header closeButton>
-//           <Modal.Title>Modal heading</Modal.Title>
-//         </Modal.Header>
-//         <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-//         <Modal.Footer>
-//           <Button variant="secondary" onClick={handleClose}>
-//             Close
-//           </Button>
-//           <Button variant="primary" onClick={handleClose}>
-//             Save Changes
-//           </Button>
-//         </Modal.Footer>
-//       </Modal>
-//     </>
-//   );
-// }
-
-// render(<Example />);

@@ -31,41 +31,41 @@ Actual time needed to complete: 90
 ```bash
 Estimate of time needed to complete: 180 minutes
 
-Start time: yesterday
+Start time: 5:00
 
-Finish time: tomorrow
+Finish time: 8:00
 
-Actual time needed to complete: too long
+Actual time needed to complete: 120 minutes
 ```
 
 ✨**Stretch Goal: Add Interaction**
 
 ```bash
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 120 minutes
 
-Start time: _____
+Start time: 2:00
 
-Finish time: _____
+Finish time: 3:30
 
-Actual time needed to complete: _____
+Actual time needed to complete: 90 minutes
 ```
 
-**Feature 1: Display a Modal** - Due Saturday Mar 27 by 11:59pm
+**Feature 1: Display a Modal** 
 
 ```bash
 Estimate of time needed to complete: 180 minutes
 
-Start time: yesterday
+Start time: 5:00
 
-Finish time: tomorrow
+Finish time: 6:00
 
-Actual time needed to complete: too long
+Actual time needed to complete: 60 minutes
 ```
 
 ✨**Stretch Goal: Fuzzy search**
 
 ```bash
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 60 minutes
 
 Start time: _____
 
@@ -84,7 +84,7 @@ Actual time needed to complete: _____
 + `React CarDeck` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/cards/)
 + `React - Modal` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/modal/#modals)
 + `.find()` [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
-
++ [Shadow Box Tool](cssgenerator) *thanks TA Bryant for showing me this tool!*
 
 **To ensure I am installing both parts of Bootstrap, I use the following installation command:**
 
@@ -108,6 +108,8 @@ npm install react-bootstrap bootstrap
 ````
 
 ### ❤️ G R A T T I T U D E
+
++ **SHOUT OUT** to TA Bryant who helped me sort out my Gallery of horns files. He also showed me how to use a shadowbox tool called: [cssgenerator](https://cssgenerator.org/box-shadow-css-generator.html)
 
 ---
 
