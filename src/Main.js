@@ -3,13 +3,15 @@ import HornedBeast from './HornedBeast.js';
 import React from 'react';
 import CardDeck from 'react-bootstrap/CardDeck'
 
-// Map over the JSON data in your Main component to render each beast [[[x- done]]]
-
-// [[[x- done]]] Import the data.json file into your App component and send that data into the Main component 
+// x-------------------------------------------------------------------------------T O . D O-------x]]]]
+// [[[x- done]]] Map over the JSON data in your Main component 
+//               to render each beast
+//
 // [[[x- done]]] Map over the JSON data in your Main component to render each beast
-// Send a function into your Main component that allows the user to update state in the App
-// [[[x- done]]] Create a SelectedBeast component and include it in your App 
-// Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap
+//
+// [[[x- done]]] Send a function into your Main component that allows 
+//               the user to update state in the App
+// x-------------------------------------------------------------------------------T O . D O-------x]]]]
 
 class Main extends React.Component {
   render() {
@@ -21,6 +23,7 @@ class Main extends React.Component {
             return (
               <div key={index}>
                 <HornedBeast
+                  showModal = {this.props.showModal}
                   title={thisLilBeastie.title}
                   img={thisLilBeastie.image_url}
                   description={thisLilBeastie.description}
@@ -37,7 +40,9 @@ class Main extends React.Component {
 
 export default Main;
 
-// ----------------------------------------------------------- M A N U A L . L A B O R ------------a.k.a.theHardWay-------------------------------------------------------------x
+
+
+// x------------------------ M A N U A L . L A B O R ------------a.k.a.theHardWay---------------x]]]]]]]
 
 // <HornedBeast title="Smaug" img_url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg" keyword="Dragon" description="Fan illustration of Smaug from 'The Hobbit'" alt=""/>
 
