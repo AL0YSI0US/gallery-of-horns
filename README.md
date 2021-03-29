@@ -92,7 +92,7 @@ Finish time: _____
 Actual time needed to complete: _____
 ```
 
-### 🌐 R E S O U R C E S
+## 🌐 R E S O U R C E S
 
 * **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 🛠️
 * **.gitignore**
@@ -107,7 +107,7 @@ Actual time needed to complete: _____
 + { `!important` } - [CSS The !important Rule](https://www.w3schools.com/css/css_important.asp) 
 
 
-### 🛠️ Cool Tools
+## 🛠️ Cool Tools
 
 + [react-bootstrap](https://react-bootstrap.github.io/)
 + [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related) - { `TA Bryant shared this tool with the class.` }
@@ -122,12 +122,12 @@ npm install react-bootstrap bootstrap
                                      resource: TA hexx
 ````
 
-### 👥 C O L L A B O R A T O R S
+## 👥 C O L L A B O R A T O R S
 
 * Michelle helped me unbreak my page when It was failing to render. Turned out I only had one part of bootstrap installed. which leads me to my next thank you...
 * Hexx provided me with the `npm install react-bootstrap bootstrap` command line to ensure I'm getting all the goods when I set up a project.
 
-### 🤔 R E F L E C T I O N S
+## 🤔 R E F L E C T I O N S
 
 * Creating templates for repetitive work makes my life simpler. I needed to render an image...a whole lot! I made a template so I did not miss any key pieces along the way, here's what that looked like:
 
@@ -135,7 +135,7 @@ npm install react-bootstrap bootstrap
      <HornedBeast title="" image_url="" keyword="" description="" alt="" />
 ````
 
-### ❤️ G R A T T I T U D E
+## ❤️ G R A T T I T U D E
 
 + **SHOUT OUT** to TA Bryant who helped me sort out my Gallery of horns files. He also showed me how to use a shadowbox tool called: [cssgenerator](https://cssgenerator.org/box-shadow-css-generator.html)
 + **SHOUT OUT** to Tom who showed me how to save code snippets while I traverse the web
