@@ -2,29 +2,12 @@
 
 > *A note on cloning and forking* : Don't forget to say so in your REAMDME 😉
 
-
 <h2 align="center">Gallery of Horns Time Estimate</h2>
 
 <table align="center"><tr><td>
 <pre>
                    " ⏰  "
 --------------------------------------------<br>
-
-```bash
-Estimated TOTAL time needed to complete: 13 Hours
-
-Actual TOTAL time needed to complete: 5.45 Hours
-
--------------------------------------------------
-
-The TOTAL difference = 7.55 Hours
-````
-
-</pre><p></p>
-</td></tr></table>
-
- 
- 
 
 **Feature 1: Display images**
 
@@ -74,7 +57,7 @@ Finish time: 3:30
 Actual time needed to complete: 90 minutes
 ```
 
-**Feature 1: Display a Modal** 
+**Feature 1: Display a Modal**
 
 ```bash
 Estimate of time needed to complete: 180 minutes
@@ -104,11 +87,20 @@ Actual time needed to complete: _____
 * **.gitignore**
 * React [Documentation](https://reactjs.org/docs/getting-started.html)
 
-+ `React - Button` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/buttons/)
-+ `React CarDeck` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/cards/)
-+ `React - Modal` [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/modal/#modals)
-+ `.find()` [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
-+ [Shadow Box Tool](cssgenerator) *thanks TA Bryant for showing me this tool!*
++ { `React - Button` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/buttons/)
++ { `React CarDeck` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/cards/)
++ { `React - Modal` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/modal/#modals)
++ { `.find()` } - [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
++ [adding-fonts-to-create-react-app](https://dev.to/annequinkenstein/adding-fonts-to-create-react-app-3ed7) - { `Blog by : Anne Quinkenstein ` }
++ { `Rajdhani` } - [google fonts](https://fonts.google.com/specimen/Rajdhani?preview.text_type=custom)
+
+
+### 🛠️ Cool Tools
+
++ [react-bootstrap](https://react-bootstrap.github.io/)
++ [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related) { `TA Bryant shared this tool with the class.` }
++ [Shadow Box Tool](cssgenerator) { `thanks TA Bryant for showing me this one!` }
++ [Visual Studio](https://code.visualstudio.com/) - { `VS Code` }
 
 **To ensure I am installing both parts of Bootstrap, I use the following installation command:**
 
@@ -134,6 +126,7 @@ npm install react-bootstrap bootstrap
 ### ❤️ G R A T T I T U D E
 
 + **SHOUT OUT** to TA Bryant who helped me sort out my Gallery of horns files. He also showed me how to use a shadowbox tool called: [cssgenerator](https://cssgenerator.org/box-shadow-css-generator.html)
++ **SHOUT OUT** to Tom who showed me how to save code snippets while I traverse the web
 
 ---
 

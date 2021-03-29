@@ -1,24 +1,57 @@
+/* x-------------------------------------------------------------------------------T O . D O-------x]]]]
+/* [x] Import a bootstrap "Block Level Button" - https://react-bootstrap.github.io/components/buttons/  
+/* [o] Style button with a hover color { .button }
+/* [x] Color Background { body }
+/* [o] Set a margin of 10px between the rows 
+/* [x] Style the H1 [how can I import a google font?] 
+/*     ---> https://dev.to/annequinkenstein/adding-fonts-to-create-react-app-3ed7 <---
+/* x-------------------------------------------------------------------------------T O . D O-------x]]]]
+
 /* ........................................B O D Y..................................... */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(20, 29, 37);
+  background-color: rgb(39, 34, 34);
+  margin-left: 100px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 /* .......................Welcome to the Gallery of Horns (<h1>)....................... */
 h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  font-size: 46px;
   text-align: center;
-  font-size: 32px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  color: aliceblue;
+}
+.div.modal.header {
+  text-align: center;
 } 
 /* .......................................C O D E ..................................... */
 /* .......................................M A I N ..................................... */
 /* ...................................G A L L E R Y (<div="gallery">).................. */
-/* .....................................I M A G E S.................................... */
+/* .....................................B U T T O N.................................... */
+button:hover {
+ color: rgb(255, 25, 244);
+}
+.div.modal.header {
+  text-align: center;
+}
+.div.modal-header {
+  text-align: center;
+}
 /* ...............................D E S C R I P T I O N (<p>).......................... */
 /* ..................................S T O C K . C S S ................................ */
  .App {
+  text-align: center;
+}
+#card-body {
+  background-color: blue;
+  margin-bottom: 100px;
+}
+div.card.title.h5 { 
   text-align: center;
 }
