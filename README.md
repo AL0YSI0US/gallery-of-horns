@@ -109,8 +109,8 @@ Actual time needed to complete: _____
 ### 🛠️ Cool Tools
 
 + [react-bootstrap](https://react-bootstrap.github.io/)
-+ [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related) { `TA Bryant shared this tool with the class.` }
-+ [Shadow Box Tool](cssgenerator) { `thanks TA Bryant for showing me this one!` }
++ [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related) - { `TA Bryant shared this tool with the class.` }
++ [Shadow Box Tool](cssgenerator) - { `thanks TA Bryant for showing me this one!` }
 + [Visual Studio](https://code.visualstudio.com/) - { `VS Code` }
 
 **To ensure I am installing both parts of Bootstrap, I use the following installation command:**
