@@ -137,7 +137,11 @@ npm install react-bootstrap bootstrap
 
 ---
 
+<img align="center" src="https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true" />
+
+<!--
 [![](https://github.com/AL0YSI0US/AL0YSI0US/raw/main/img/linkedin.png?raw=true)](https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true)
+--!>
 
 #### I happily support others in the curation of thier respective networks, you can connect with me via Linkedin by clicking [here](https://www.linkedin.com/in/a-todd-charliemike/).
 
