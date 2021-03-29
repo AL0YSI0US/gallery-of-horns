@@ -7,7 +7,7 @@
                    " ⏰  "
 --------------------------------------------<br>
 
-```bash
+```javascript
 Estimated TOTAL time needed to complete: 13 hours
 
 Actual TOTAL time needed to complete: 6.55 hours
@@ -22,44 +22,61 @@ The TOTAL difference: 6.45 hours
 
 **Feature 1: Display images**
 
-```bash
-Estimate of time needed to complete: 60 minutes
+> "As a user, I want to view the images on the page so that I can browse the photo collection."
 
-Start time: 5:00
++ Given that a user opens the application in the browser, when the user navigates to the home page  the photo gallery should display all of the images in the gallery.
 
-Finish time: 5:57
-
-Actual time needed to complete: 57 minutes
+```javascript
+Estimate of time needed to complete: 60 minutes                      
+                                                         
+Start time: 5:00                                          
+                                                          
+Finish time: 5:57                                       
+                                                            
+Actual time needed to complete: 57 minutes                 
 ```
 
 **Feature 2: Allow users to vote for their favorite beast**
 
-```bash
-Estimate of time needed to complete: 180 minutes
+>  "As a user, I want to be able to interact with the site and pick my favorite beast."
 
-Start time: 6:00
++ Given that a user clicks on an image, the number of “favorites” displayed on that image will increase by one.
 
-Finish time: 830
+```javascript
+Estimate of time needed to complete: 180 minutes                     
 
+Start time: 6:00                                       " 
+                                                      
+Finish time: 830                                       
+                                                        
 Actual time needed to complete: 90
 ```
 
 **Feature 3: Bootstrap**
 
-```bash
-Estimate of time needed to complete: 180 minutes
+> "As a user, I want to see a visually pleasing application that is also reponsive when I view this application on different screen sizes."
 
-Start time: 5:00
++ Given that a user opens the application in the browser when the images are displayed on the screen, each image should be rendered in a visually pleasing way. { displayed in columns, as screen width allows }
 
-Finish time: 8:00
+```javascript
+Estimate of time needed to complete: 180 minutes                   
 
-Actual time needed to complete: 120 minutes
+Start time: 5:00                                 
+                                                  
+Finish time: 8:00                            
+                                                 
+Actual time needed to complete: 120 minutes      
 ```
 
 ✨**Stretch Goal: Add Interaction**
 
-```bash
-Estimate of time needed to complete: 120 minutes
+> "As a user, I want to be able to interact with each item on the page."
+
++ When the user clicks on elements such as the header, footer or title of page, make something change using state.
+  + You can update the words, change the styles or add something new. Be creative.
+
+```javascript
+Estimate of time needed to complete: 120 minutes                         
 
 Start time: 2:00
 
@@ -70,8 +87,12 @@ Actual time needed to complete: 90 minutes
 
 **Feature 1: Display a Modal**
 
-```bash
-Estimate of time needed to complete: 180 minutes
+> "As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image."
+ 
++ Given that a user wants to view the details of the image, when the user clicks on an individual image the image should render larger on the screen with the description displayed.
+
+```javascript
+Estimate of time needed to complete: 180 minutes                         
 
 Start time: 5:00
 
@@ -82,8 +103,12 @@ Actual time needed to complete: 60 minutes
 
 ✨**Stretch Goal: Fuzzy search**
 
-```bash
-Estimate of time needed to complete: 60 minutes
+> As a user, I want the ability to search my images so that I can view only the images containing specific titles or keywords.
+
++ Given that a user wants to view specific images, when the user enters a character into the search field only the images matching the current set of characters should be displayed on the screen.
+
+```javascript
+Estimate of time needed to complete: 60 minutes                           
 
 Start time: _____
 
@@ -91,6 +116,23 @@ Finish time: _____
 
 Actual time needed to complete: _____
 ```
+
+**Feature 1. Filter by Numbers of Horns**
+
+> "As a user, I want to be able to view the beasts by the number of horns"    
+
++ Given that a user is presented with filtering options, when the user clicks on one option the images should be filtered accordingly.
+
+```javascript
+Estimate of time needed to complete: 60 minutes                         
+                                                         
+Start time: _____                                                  
+                                                               
+Finish time: _____                                             
+                                                                 
+Actual time needed to complete: _____ 
+```
+
 
 ## 🌐 R E S O U R C E S
 
