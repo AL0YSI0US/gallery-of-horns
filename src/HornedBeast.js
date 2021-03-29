@@ -7,6 +7,8 @@ import Card from 'react-bootstrap/Card';
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 // "The onClick should be happening on the image instead of the Card." 
 //                           - TA Bryant
+//
+// [x] R E F A C T O R > C O D E
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 
 class HornedBeast extends React.Component {
@@ -17,22 +19,27 @@ class HornedBeast extends React.Component {
       slapaaHeartOnIt: 0,
     }
   }
-
-buttonClicked = () => {
+  buttonClicked = () => {
   this.setState({slapaaHeartOnIt: this.state.slapaaHeartOnIt + 1});
   this.props.showModal(this.props.title);
 }
   render() {
+    
+    // [x] R E F A C T O R > C O D E
+    const image = this.props.img;
+    const title = this.props.title;
+    const description = this.props.description;
+
     return (
       <div>
         <Card style={{ width: '18rem' }}
           onClick={this.buttonClicked}>
-          <Card.Img variant="top" src={this.props.img} />
-          <Card.Body>
-            <Card.Title>{this.props.title}</Card.Title>
-            <Card.Text>{this.props.description}</Card.Text>
-            <Card.Text>❤️ = {this.state.slapaaHeartOnIt}</Card.Text>
-          </Card.Body>
+            <Card.Img variant="top" src={image} />
+            <Card.Body>
+              <Card.Title>{title}</Card.Title>
+              <Card.Text>{description}</Card.Text>
+              <Card.Text>❤️ = {this.state.slapaaHeartOnIt}</Card.Text>
+            </Card.Body>
         </Card>
       </div>
     )
