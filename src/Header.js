@@ -3,7 +3,7 @@ import './Header.css';
 
 class Header extends React.Component {
   render() {
-    return(<h1>Gallery of Horns</h1>);
+    return(<h1>Welcome to the Gallery of Horns</h1>);
   }
 }
 
