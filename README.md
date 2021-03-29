@@ -1,6 +1,28 @@
-# Game of Horns
+# Gallery of Horns
 
 > *A note on cloning and forking* : Don't forget to say so in your REAMDME 😉
+
+
+<h2 align="center">Gallery of Horns Time Estimate</h2>
+
+<table align="center"><tr><td>
+<pre>
+                   " ⏰  "
+-------------------------------------------------<br>
+
+```bash
+Estimated TOTAL time needed to complete: 13 Hours
+
+Actual TOTAL time needed to complete: 5.45 Hours
+
+The TOTAL difference = 7.55 Hours
+````
+
+</pre><p></p>
+</td></tr></table>
+
+ 
+ 
 
 **Feature 1: Display images**
 
