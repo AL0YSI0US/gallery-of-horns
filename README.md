@@ -107,7 +107,7 @@ Actual time needed to complete: _____
 + { `!important` } - [CSS The !important Rule](https://www.w3schools.com/css/css_important.asp) 
 
 
-## 🛠️ C O O L  T O O L S
+## 🛠️ C O O L - T O O L S
 
 + [react-bootstrap](https://react-bootstrap.github.io/)
 + [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related) - { `TA Bryant shared this tool with the class.` }
