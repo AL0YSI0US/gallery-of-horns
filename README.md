@@ -128,7 +128,7 @@ npm install react-bootstrap bootstrap
 * Creating templates for repetitive work makes my life simpler. I needed to render an image...a whole lot! I made a template so I did not miss any key pieces along the way, here's what that looked like:
 
 ````html
-     <HornedBeast title="" img_url="" keyword="" description="" alt="" />
+     <HornedBeast title="" image_url="" keyword="" description="" alt="" />
 ````
 
 ### ❤️ G R A T T I T U D E
