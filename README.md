@@ -10,10 +10,10 @@
 ```javascript
 Estimated TOTAL time needed to complete: 13 hours
 
-Actual TOTAL time needed to complete: 6.55 hours
+Actual TOTAL time needed to complete: 
 
 
-The TOTAL difference: 6.45 hours
+The TOTAL difference: 
 ```
 
 </pre><p></p>
@@ -76,13 +76,13 @@ Actual time needed to complete: 120 minutes
   + You can update the words, change the styles or add something new. Be creative.
 
 ```javascript
-Estimate of time needed to complete: 120 minutes                         
+Estimate of time needed to complete: 60 minutes                         
 
-Start time: 2:00
+Start time:
 
-Finish time: 3:30
+Finish time: 
 
-Actual time needed to complete: 90 minutes
+Actual time needed to complete: 
 ```
 
 **Feature 1: Display a Modal**
