@@ -11,13 +11,14 @@ import CardDeck from 'react-bootstrap/CardDeck'
 //
 // [[[x- done]]] Send a function into your Main component that allows 
 //               the user to update state in the App
+//
+// [x] R E F A C T O R > C O D E
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 
-class Main extends React.Component {
+class Main extends React.Component {  
   render() {
     return (
       <div>
-       
         <CardDeck> 
           {this.props.beasts.map((thisLilBeastie, index) => {
             return (
@@ -37,9 +38,7 @@ class Main extends React.Component {
   }
 }
 
-
 export default Main;
-
 
 
 // x------------------------ M A N U A L . L A B O R ------------a.k.a.theHardWay---------------x]]]]]]]
