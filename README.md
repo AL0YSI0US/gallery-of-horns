@@ -8,12 +8,14 @@
 <table align="center"><tr><td>
 <pre>
                    " ⏰  "
--------------------------------------------------<br>
+--------------------------------------------<br>
 
 ```bash
 Estimated TOTAL time needed to complete: 13 Hours
 
 Actual TOTAL time needed to complete: 5.45 Hours
+
+-------------------------------------------------
 
 The TOTAL difference = 7.55 Hours
 ````
