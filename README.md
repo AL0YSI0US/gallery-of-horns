@@ -140,7 +140,7 @@ npm install react-bootstrap bootstrap
 + **SHOUT OUT** to TA Bryant who helped me sort out my Gallery of horns files. He also showed me how to use a shadowbox tool called: [cssgenerator](https://cssgenerator.org/box-shadow-css-generator.html)
 + **SHOUT OUT** to Tom who showed me how to save code snippets while I traverse the web
 + **SHOUT OUT** to Madeline who told me to look into the CSS `!important` rule: *it will override ALL previous styling rules for that specific property on that element!*
-+ + The only way to override an `!important` rule is to include another `!important` rule on a declaration with the same (or higher) specificity in the source code.
+  + The only way to override an `!important` rule is to include another `!important` rule on a declaration with the same (or higher) specificity in the source code.
 ---
 
 <p align="center">
