@@ -7,19 +7,6 @@
                    " ⏰  "
 --------------------------------------------<br>
 
-```javascript
-Estimated TOTAL time needed to complete: 13 hours
-
-Actual TOTAL time needed to complete: 
-
-
-The TOTAL difference: 
-```
-
-</pre><p></p>
-</td></tr></table>
-
-
 **Feature 1: Display images**
 
 > "As a user, I want to view the images on the page so that I can browse the photo collection."
@@ -27,28 +14,28 @@ The TOTAL difference:
 + Given that a user opens the application in the browser, when the user navigates to the home page  the photo gallery should display all of the images in the gallery.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                      
-                                                         
-Start time: 5:00                                          
+Estimate of time needed to complete: 60 minutes                    
+                                                       
+Start time: 5:00                                        
+                                                        
+Finish time: 5:57                                     
                                                           
-Finish time: 5:57                                       
-                                                            
-Actual time needed to complete: 57 minutes                 
+Actual time needed to complete: 57 minutes               
 ```
 
 **Feature 2: Allow users to vote for their favorite beast**
 
->  "As a user, I want to be able to interact with the site and pick my favorite beast."
+> "As a user, I want to be able to interact with the site and pick my favorite beast."
 
 + Given that a user clicks on an image, the number of “favorites” displayed on that image will increase by one.
 
 ```javascript
-Estimate of time needed to complete: 180 minutes                     
+Estimate of time needed to complete: 180 minutes                   
 
 Start time: 6:00                                       " 
+                                                    
+Finish time: 830                                     
                                                       
-Finish time: 830                                       
-                                                        
 Actual time needed to complete: 90
 ```
 
@@ -59,13 +46,13 @@ Actual time needed to complete: 90
 + Given that a user opens the application in the browser when the images are displayed on the screen, each image should be rendered in a visually pleasing way. { displayed in columns, as screen width allows }
 
 ```javascript
-Estimate of time needed to complete: 180 minutes                   
+Estimate of time needed to complete: 180 minutes                 
 
-Start time: 5:00                                 
-                                                  
-Finish time: 8:00                            
-                                                 
-Actual time needed to complete: 120 minutes      
+Start time: 5:00                               
+                                                
+Finish time: 8:00                          
+                                               
+Actual time needed to complete: 120 minutes    
 ```
 
 ✨**Stretch Goal: Add Interaction**
@@ -76,7 +63,7 @@ Actual time needed to complete: 120 minutes
   + You can update the words, change the styles or add something new. Be creative.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                         
+Estimate of time needed to complete: 60 minutes                       
 
 Start time:
 
@@ -88,11 +75,11 @@ Actual time needed to complete:
 **Feature 1: Display a Modal**
 
 > "As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image."
- 
+
 + Given that a user wants to view the details of the image, when the user clicks on an individual image the image should render larger on the screen with the description displayed.
 
 ```javascript
-Estimate of time needed to complete: 180 minutes                         
+Estimate of time needed to complete: 180 minutes                       
 
 Start time: 5:00
 
@@ -108,7 +95,7 @@ Actual time needed to complete: 60 minutes
 + Given that a user wants to view specific images, when the user enters a character into the search field only the images matching the current set of characters should be displayed on the screen.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                           
+Estimate of time needed to complete: 60 minutes                         
 
 Start time: _____
 
@@ -119,20 +106,19 @@ Actual time needed to complete: _____
 
 **Feature 1. Filter by Numbers of Horns**
 
-> "As a user, I want to be able to view the beasts by the number of horns"    
+> "As a user, I want to be able to view the beasts by the number of horns"
 
 + Given that a user is presented with filtering options, when the user clicks on one option the images should be filtered accordingly.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                         
-                                                         
-Start time: _____                                                  
+Estimate of time needed to complete: 60 minutes                       
+                                                       
+Start time: _____                                                
+                                                             
+Finish time: _____                                           
                                                                
-Finish time: _____                                             
-                                                                 
 Actual time needed to complete: _____ 
 ```
-
 
 ## 🌐 R E S O U R C E S
 
@@ -143,11 +129,11 @@ Actual time needed to complete: _____
 + { `React - Button` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/buttons/)
 + { `React CarDeck` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/cards/)
 + { `React - Modal` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/modal/#modals)
++ { `dropdowns` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/dropdowns/#dropdowns)
 + { `.find()` } - [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 + [adding-fonts-to-create-react-app](https://dev.to/annequinkenstein/adding-fonts-to-create-react-app-3ed7) - { `Blog by : Anne Quinkenstein ` }
 + { `Rajdhani` } - [google fonts](https://fonts.google.com/specimen/Rajdhani?preview.text_type=custom)
-+ { `!important` } - [CSS The !important Rule](https://www.w3schools.com/css/css_important.asp) 
-
++ { `!important` } - [CSS The !important Rule](https://www.w3schools.com/css/css_important.asp)
 
 ## 🛠️ C O O L - T O O L S
 
@@ -183,6 +169,7 @@ npm install react-bootstrap bootstrap
 + **SHOUT OUT** to Tom who showed me how to save code snippets while I traverse the web
 + **SHOUT OUT** to Madeline who told me to look into the CSS `!important` rule: *it will override ALL previous styling rules for that specific property on that element!*
   + The only way to override an `!important` rule is to include another `!important` rule on a declaration with the same (or higher) specificity in the source code.
+
 ---
 
 <p align="center">

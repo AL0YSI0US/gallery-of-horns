@@ -8,7 +8,8 @@ import { Card, Button, Modal } from 'react-bootstrap';
 // [[[x- done]]] Use the state in the App to render an individual beast in a 
 //               Modal in the SelectedBeast component using React Bootstrap
 //
-// [x] Import a bootstrap "Block Level Button" - https://react-bootstrap.github.io/components/buttons/  
+// [x] Import a bootstrap "Block Level Button" - https://react-bootstrap.github.io/components/buttons/ 
+// [o] Import a "DopdDown" https://react-bootstrap.netlify.app/components/dropdowns/#dropdowns  
 // [o] Style button with a hover color
 // [x] Color Background
 // [o] Set a margin of 10px between the rows
