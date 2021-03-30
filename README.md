@@ -7,7 +7,16 @@
                    " ⏰  "
 --------------------------------------------<br>
 
-</pre><p>)</p>
+````javascript
+Estimated TOTAL time needed to complete: 13 hours
+
+Actual TOTAL time needed to complete: 
+
+
+The TOTAL difference: 
+````
+
+</pre><p></p>
 </td></tr></table>
 
 
@@ -36,7 +45,7 @@ Actual time needed to complete: 57 minutes
 ```javascript
 Estimate of time needed to complete: 180 minutes                   
 
-Start time: 6:00                                       " 
+Start time: 6:00                                       
                                                     
 Finish time: 830                                     
                                                       
