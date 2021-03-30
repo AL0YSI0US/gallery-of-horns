@@ -182,6 +182,14 @@ npm install react-bootstrap bootstrap
 + **SHOUT OUT** to Tom who showed me how to save code snippets while I traverse the web
 + **SHOUT OUT** to Madeline who told me to look into the CSS `!important` rule: *it will override ALL previous styling rules for that specific property on that element!*
   + The only way to override an `!important` rule is to include another `!important` rule on a declaration with the same (or higher) specificity in the source code.
++ **SHOUT OUT** to Thena for setting up peer coding seesions to get developers together coding in community spaces.  I learn so much in these spaces.
++ **SHOUT OUT** to Faruk for imparting CSS wisdom upon me. I was walked through the inspect tool for debugging CSS.
+  + right click / inspect
+  + select tool
+  + target item
+  + check out `styles` 
+  + check out `computed`
+  + debug to your hearts content!
 
 ---
 
