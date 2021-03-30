@@ -7,6 +7,10 @@
                    " ⏰  "
 --------------------------------------------<br>
 
+</pre><p>)</p>
+</td></tr></table>
+
+
 **Feature 1: Display images**
 
 > "As a user, I want to view the images on the page so that I can browse the photo collection."
