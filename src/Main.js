@@ -1,24 +1,33 @@
 import HornedBeast from './HornedBeast.js';
 
 import React from 'react';
-import CardDeck from 'react-bootstrap/CardDeck'
 
-// x-------------------------------------------------------------------------------T O . D O-------x]]]]
-// [[[x- done]]] Map over the JSON data in your Main component 
-//               to render each beast
-//
+// [x] refactor code to include new bootstarppy thing 'Form'
+import {CardDeck , Form} from 'react-bootstrap'
+
+// import the Horn Count!
+import HornCount from './HornCount.js';
+
+// x----------------------------------------------------------------------------(((- D O N E -)))---]]]]
 // [[[x- done]]] Map over the JSON data in your Main component to render each beast
-//
-// [[[x- done]]] Send a function into your Main component that allows 
-//               the user to update state in the App
-//
+// [[[x- done]]] Map over the JSON data in your Main component to render each beast
+// [[[x- done]]] Send a function into your Main component that allows the user to update state in the App
 // [x] R E F A C T O R > C O D E
+// x-------------------------------------------------------------------------------T O . D O-------x]]]]
+// [o] refactor code to include new bootstarppy thing in import line 'Form'
+// [o] add Form element to the Main Component
+// [o] what in the heck goes in the parameters????
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 
 class Main extends React.Component {  
   render() {
     return (
       <div>
+        <HornCount />
+        {/* <Form>
+
+        </Form>
+        </HornCount> */}
         <CardDeck> 
           {this.props.beasts.map((thisLilBeastie, index) => {
             return (
