@@ -2,13 +2,10 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 
 // x----------------------------------------------------------------------------(((- D O N E -)))---]]]]
-//       This will all need to track what was clicked and send it to App.js 
 //
-// "The onClick should be happening on the image instead of the Card." 
-//                           - TA Bryant
+//   The HornredBeast will need to track what was clicked and send it to App.js 
 //
 // [x] R E F A C T O R > C O D E
-//
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 //
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
