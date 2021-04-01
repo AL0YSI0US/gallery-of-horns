@@ -3,7 +3,7 @@ import HornedBeast from './HornedBeast.js';
 import React from 'react';
 
 // [x] refactor code to include new bootstarppy thing 'Form'
-import {CardDeck , Form} from 'react-bootstrap'
+import CardDeck from 'react-bootstrap/CardDeck'
 
 // import the Horn Count!
 import HornCount from './HornCount.js';
@@ -23,11 +23,9 @@ class Main extends React.Component {
   render() {
     return (
       <div>
-        <HornCount />
-        {/* <Form>
-
-        </Form>
-        </HornCount> */}
+        <HornCount
+          presentFancyBeasts={this.props.presentFancyBeasts} 
+        />
         <CardDeck> 
           {this.props.beasts.map((thisLilBeastie, index) => {
             return (
@@ -37,6 +35,7 @@ class Main extends React.Component {
                   title={thisLilBeastie.title}
                   img={thisLilBeastie.image_url}
                   description={thisLilBeastie.description}
+                  horns={thisLilBeastie.horns}
                 />
               </div>
             )

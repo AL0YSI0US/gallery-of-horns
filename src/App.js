@@ -3,7 +3,6 @@ import './App.css';
 
 import Header from './Header.js';
 import About from './About.js';
-// import HornCount from '/.HornCount.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
 
@@ -46,16 +45,18 @@ class App extends React.Component {
 
   hideModal = () => {this.setState({displayModal: false});
   }
-
+  presentFancyBeasts = (lilBeastieData) => {
+    this.setState({lilBeastieData});
+  }
   render() {
     return (
       <div>
         <Header />
         <About />
-        {/* <HornCount /> */}
         <Main 
           showModal={this.showModal}
-          beasts={this.state.lilBeastieData} 
+          beasts={this.state.lilBeastieData}
+          presentFancyBeasts={this.presentFancyBeasts} 
         />
         <SelectedBeast 
           displayModal={this.state.displayModal}

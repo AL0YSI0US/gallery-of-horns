@@ -1,6 +1,7 @@
 
 import React from 'react';
-import {Container, Form} from 'react-bootstrap'
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
 
 
 import data from './data.json'
@@ -17,8 +18,8 @@ import data from './data.json'
 //     - Form allows user to view images based on number of horns
 // [x] add Form element to the Main Component
 // D O C U M E N T A T I O N
-// CONTAINER : { `Container` } [react-bootstrap](https://react-bootstrap.github.io/layout/grid/) 
-// FORM: { `Form` } [react-bootstrap](https://react-bootstrap.github.io/components/forms/)
+// [o->] CONTAINER : { `Container` } [react-bootstrap](https://react-bootstrap.github.io/layout/grid/) 
+// [o->] FORM: { `Form` } [react-bootstrap](https://react-bootstrap.github.io/components/forms/)
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 // [o] R E F A C T O R > C O D E
 // [o] handleState
@@ -28,35 +29,29 @@ import data from './data.json'
 
 
 class HornCount extends React.Component {
-  constructor(props) {
-    super(props);
-  
-    this.state = {
-      lilBeastieData: data,
-      selectedHornCount: 0,
+  filter = (e) => {
+    const numOfHorns = parseInt(e.target.value);
+    let lilBeastieData = data;
+    if (numOfHorns) {
+      lilBeastieData = data.filter((lilBeastie) => lilBeastie.horns === numOfHorns);
     }
+    this.props.presentFancyBeasts(lilBeastieData);
   }
-  buttonClicked = () => {
-    this.setState({selectedHornChoice: this.state.selectedHornCoice});
-    
 
-  }
-    render() {
+  render() {
     return (
       <Container>
         <Form>
           <Form.Group controlId="hornedChoices.ControlSelect1">
-          <Form.Label>View a beast by number of horns</Form.Label>
-          <Form.Control as="select">
-            <option>1</option>
-            {/*                   number of horns?????         */}
-            <option>2</option> 
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </Form.Control>
-        </Form.Group>
-      </Form>
+            <Form.Label>View a beast by number of horns</Form.Label>
+            <Form.Control as="select" onChange={this.filter}>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>100</option>
+            </Form.Control>
+          </Form.Group>
+        </Form>
       </Container>
     )
   }
