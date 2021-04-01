@@ -138,11 +138,12 @@ Actual time needed to complete: _____
 * **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 🛠️
 * **.gitignore**
 * React [Documentation](https://reactjs.org/docs/getting-started.html)
-
 + { `React - Button` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/buttons/)
-+ { `React CarDeck` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/cards/)
++ { `React - CarDeck` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/cards/)
 + { `React - Modal` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/modal/#modals)
-+ { `dropdowns` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/dropdowns/#dropdowns)
++ { `React - Container` } - [react-bootstrap.netlify.app](https://react-bootstrap.github.io/layout/grid/)
++ { `React - Form` } - [react-bootstrap.netlify.app](https://react-bootstrap.github.io/components/forms/)
++ { `parseInt()` } - [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
 + { `.find()` } - [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 + [adding-fonts-to-create-react-app](https://dev.to/annequinkenstein/adding-fonts-to-create-react-app-3ed7) - { `Blog by : Anne Quinkenstein ` }
 + { `Rajdhani` } - [google fonts](https://fonts.google.com/specimen/Rajdhani?preview.text_type=custom)
@@ -165,12 +166,14 @@ npm install react-bootstrap bootstrap
 
 ## 👥 C O L L A B O R A T O R S
 
-* Michelle helped me unbreak my page when It was failing to render. Turned out I only had one part of bootstrap installed. which leads me to my next thank you...
-* Hexx provided me with the `npm install react-bootstrap bootstrap` command line to ensure I'm getting all the goods when I set up a project.
+* { `Michelle` } helped me unbreak my page when It was failing to render. Turned out I only had one part of bootstrap installed. which leads me to my next thank you...
+* { `Hexx` } provided me with the `npm install react-bootstrap bootstrap` command line to ensure I'm getting all the goods when I set up a project.
+* { `Daniel` } : When it came time to sort beasts by the number of horns I brainstormed with my classmate and together we mapped out a plan of attack for how we wanted to get each of our Apps to work and then we sought TA help in the daytime before class. TA Hexx came in clutch as per usual and helped us make sense of the parts we were stuck on.
 
 ## 🤔 R E F L E C T I O N S
 
-* Creating templates for repetitive work makes my life simpler. I needed to render an image...a whole lot! I made a template so I did not miss any key pieces along the way, here's what that looked like:
+* Creating templates for repetitive work makes my life simpler. Early on in the project I needed to render an image a bajillion times....! 
+* I made a template so I did not miss any key pieces along the way, here's what that looked like:
 
 ````html
      <HornedBeast title="" image_url="" keyword="" description="" alt="" />
@@ -183,7 +186,7 @@ npm install react-bootstrap bootstrap
 + **SHOUT OUT** to Madeline who told me to look into the CSS `!important` rule: *it will override ALL previous styling rules for that specific property on that element!*
   + The only way to override an `!important` rule is to include another `!important` rule on a declaration with the same (or higher) specificity in the source code.
 + **SHOUT OUT** to Thena for setting up peer coding seesions to get developers together coding in community spaces.  I learn so much in these spaces.
-+ **SHOUT OUT** to Faruk for imparting CSS wisdom upon me. I was walked through the inspect tool for debugging CSS.
++ **SHOUT OUT** to Faruk for imparting CSS wisdom upon me. I was walked through an inspect tool for debugging CSS.
   + right click / inspect
   + select tool
   + target item
