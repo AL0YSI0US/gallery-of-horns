@@ -145,7 +145,7 @@ Actual time needed to complete: _____
 + { `React - Form` } - [react-bootstrap.netlify.app](https://react-bootstrap.github.io/components/forms/)
 + { `parseInt()` } - [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
 + { `.find()` } - [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
-+ [adding-fonts-to-create-react-app](https://dev.to/annequinkenstein/adding-fonts-to-create-react-app-3ed7) - { `Blog by : Anne Quinkenstein ` }
++ [adding-fonts-to-create-react-app](https://dev.to/annequinkenstein/adding-fonts-to-create-react-app-3ed7) - { `Blog by : Anne Quinkenstein` }
 + { `Rajdhani` } - [google fonts](https://fonts.google.com/specimen/Rajdhani?preview.text_type=custom)
 + { `!important` } - [CSS The !important Rule](https://www.w3schools.com/css/css_important.asp)
 
