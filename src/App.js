@@ -8,12 +8,10 @@ import SelectedBeast from './SelectedBeast'
 import data from './data.json'
 
 // x----------------------------------------------------------------------------(((- D O N E -)))---]]]]
-// [[[x- done]]] Import the data.json file into your App component 
-//               and send that data into the Main component 
 //
-// [[[x- done]]] Use the state in the App to render an individual 
-//               beast in a Modal in the SelectedBeast component 
-//               using React Bootstrap.
+// App will render an individual beast in a Modal in the SelectedBeast component
+// using React Bootstrap.
+//
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 //     Stretch Goal: Fuzzy search: 
 //     As a user, I want the ability to search my images so that I can view 
@@ -33,17 +31,14 @@ class App extends React.Component {
       selectedBeast: {}
     }
   }
-
   showModal = (name) => {
 
     const selectedBeast = data.find(beast => beast.title === name);
     this.setState({selectedBeast, displayModal:true});
   }
-
   hideModal = () => {this.setState({displayModal: false});
   }
-  presentFancyBeasts = (lilBeastieData) => {
-    this.setState({lilBeastieData});
+  presentFancyBeasts = (lilBeastieData) => {this.setState({lilBeastieData});
   }
   render() {
     return (
@@ -65,7 +60,5 @@ class App extends React.Component {
     )
   }
 }
-
-
 
 export default App;
