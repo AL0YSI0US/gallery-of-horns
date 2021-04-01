@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card, Button, Modal } from 'react-bootstrap';
+import {Button, Card, Modal} from 'react-bootstrap';
 
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 // [[[x- done]]] Create a SelectedBeast component and include it in your App.
@@ -51,4 +51,6 @@ class SelectedBeast extends React.Component {
   }
 }
 
+
 export default SelectedBeast;
+

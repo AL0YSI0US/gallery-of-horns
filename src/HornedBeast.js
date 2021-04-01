@@ -1,14 +1,16 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
-
-//             This will all need to track what was clicked and send it to App.js 
+// x----------------------------------------------------------------------------(((- D O N E -)))---]]]]
+//       This will all need to track what was clicked and send it to App.js 
 //
-// x-------------------------------------------------------------------------------T O . D O-------x]]]]
 // "The onClick should be happening on the image instead of the Card." 
 //                           - TA Bryant
 //
 // [x] R E F A C T O R > C O D E
+//
+// x-------------------------------------------------------------------------------T O . D O-------x]]]]
+//
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 
 class HornedBeast extends React.Component {
@@ -38,6 +40,7 @@ class HornedBeast extends React.Component {
             <Card.Body>
               <Card.Title>{title}</Card.Title>
               <Card.Text>{description}</Card.Text>
+              <Card.Text>Horn Count: {this.props.horns}</Card.Text>
               <Card.Text>❤️ = {this.state.slapaaHeartOnIt}</Card.Text>
             </Card.Body>
         </Card>

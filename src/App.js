@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Header from './Header.js';
-import About from './About.js'
+import About from './About.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
 
@@ -45,7 +45,9 @@ class App extends React.Component {
 
   hideModal = () => {this.setState({displayModal: false});
   }
-
+  presentFancyBeasts = (lilBeastieData) => {
+    this.setState({lilBeastieData});
+  }
   render() {
     return (
       <div>
@@ -53,7 +55,8 @@ class App extends React.Component {
         <About />
         <Main 
           showModal={this.showModal}
-          beasts={this.state.lilBeastieData} 
+          beasts={this.state.lilBeastieData}
+          presentFancyBeasts={this.presentFancyBeasts} 
         />
         <SelectedBeast 
           displayModal={this.state.displayModal}
@@ -69,28 +72,3 @@ class App extends React.Component {
 
 
 export default App;
-
-
-//                                                                  D R O P D O W N
-// import DropdownButton from 'react-bootstrap/DropdownButton'
-
-// <>
-//   {['Primary', 'Secondary', 'Success', 'Info', 'Warning', 'Danger'].map(
-//     (variant) => (
-//       <SplitButton
-//         key={variant}
-//         id={`dropdown-split-variants-${variant}`}
-//         variant={variant.toLowerCase()}
-//         title={variant}
-//       >
-//         <Dropdown.Item eventKey="1">Action</Dropdown.Item>
-//         <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-//         <Dropdown.Item eventKey="3" active>
-//           Active Item
-//         </Dropdown.Item>
-//         <Dropdown.Divider />
-//         <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
-//       </SplitButton>
-//     ),
-//   )}
-// </>                         // https://react-bootstrap.netlify.app/components/dropdowns/#dropdowns
