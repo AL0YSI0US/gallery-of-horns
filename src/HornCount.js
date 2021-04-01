@@ -1,9 +1,7 @@
-
 import React from 'react';
+import './HornCount.css';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
-
-
 import data from './data.json'
 
 // x----------------------------------------------------------------------------(((- D O N E -)))---]]]]
@@ -22,9 +20,6 @@ import data from './data.json'
 // [o->] FORM: { `Form` } [react-bootstrap](https://react-bootstrap.github.io/components/forms/)
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 // [o] R E F A C T O R > C O D E
-// [o] handleState
-// [o] what parts of the form do i need?
-// [o] how do i access the data i need? [KEYS]?
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 
 

@@ -1,23 +1,20 @@
 import React from 'react';
 import './App.css';
-
 import Header from './Header.js';
 import About from './About.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
-
 import SelectedBeast from './SelectedBeast'
-
 import data from './data.json'
 
-// x-------------------------------------------------------------------------------T O . D O-------x]]]]
+// x----------------------------------------------------------------------------(((- D O N E -)))---]]]]
 // [[[x- done]]] Import the data.json file into your App component 
 //               and send that data into the Main component 
 //
 // [[[x- done]]] Use the state in the App to render an individual 
 //               beast in a Modal in the SelectedBeast component 
 //               using React Bootstrap.
-//
+// x-------------------------------------------------------------------------------T O . D O-------x]]]]
 //     Stretch Goal: Fuzzy search: 
 //     As a user, I want the ability to search my images so that I can view 
 //     only the images containing specific [titles] or [keywords].
