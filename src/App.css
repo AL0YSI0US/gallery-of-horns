@@ -1,15 +1,17 @@
-/* x-------------------------------------------------------------------------------T O . D O-------x]]]]
-/* [x] Import a bootstrap "Block Level Button" - https://react-bootstrap.github.io/components/buttons/  
-/* [o] Style button with a hover color { .button }
+/* ...................................... C O D E ..................................... */
+/* .............................. D E S C R I P T I O N (<p>) ......................... */
+/* ...................................... M A I N ..................................... */
+/* .................................. G A L L E R Y (<div="gallery">) ................. */
+/* x----------------------------------------------------------------------------(((- D O N E -)))---]]]]
 /* [x] Color Background { body }
 /* [x] Style the H1 [how can I import a google font?] 
 /*     ---> https://dev.to/annequinkenstein/adding-fonts-to-create-react-app-3ed7 <---
-/* [o] Get the cards to have a margin between the rows [10px-20px]
-/* [o] Pick and import another font for the body / H1  switch one or the other
-/* [o] 
 /* x-------------------------------------------------------------------------------T O . D O-------x]]]]
-
-/* ........................................B O D Y..................................... */
+/*
+/* [o] Style button with a hover color { .button }
+/*
+/* x-------------------------------------------------------------------------------T O . D O-------x]]]]
+/* ....................................... B O D Y .................................... */
 body {
   font-family: 'Rajdhani', sans-serif;
   font-weight: bold;
@@ -20,32 +22,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* .......................Welcome to the Gallery of Horns (<h1>)....................... */
-h1 {
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: bold;
-  font-size: 46px;
-  text-align: center;
-  margin: 20px;
-  color: aliceblue;
-}
 h2 {
   text-align: center;
   width: 100%;
 }
-
-/* .......................................C O D E ..................................... */
-/* .......................................M A I N ..................................... */
-/* ...................................G A L L E R Y (<div="gallery">).................. */
-/* .....................................B U T T O N.................................... */
+/* .................................... B U T T O N ................................... */
 button:hover {
  color: rgb(255, 25, 244);
 }
-/* ...............................D E S C R I P T I O N (<p>).......................... */
-/* ..................................S T O C K . C S S ................................ */
- .App {
+/* ................................. S T O C K . C S S ................................ */
+.App {
   text-align: center;
 }
+/* ................................. C A R D . D E C K ................................ */
 #card-body {
   background-color: blue;
   margin-bottom: 100px;
@@ -54,4 +43,8 @@ div.card-title.h5 {
   /* text-align: center; */
   font-size: 26px;
   font-weight: bolder;
+}
+/* card spacing ??????? */
+.card {
+  margin-bottom:30px;
 }
