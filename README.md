@@ -7,19 +7,6 @@
                    " ⏰  "
 --------------------------------------------<br>
 
-````javascript
-Estimated TOTAL time needed to complete: 13 hours
-
-Actual TOTAL time needed to complete: 
-
-
-The TOTAL difference: 
-````
-
-</pre><p></p>
-</td></tr></table>
-
-
 **Feature 1: Display images**
 
 > "As a user, I want to view the images on the page so that I can browse the photo collection."
@@ -27,13 +14,13 @@ The TOTAL difference:
 + Given that a user opens the application in the browser, when the user navigates to the home page  the photo gallery should display all of the images in the gallery.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                    
-                                                       
-Start time: 5:00                                        
+Estimate of time needed to complete: 60 minutes                  
+                                                     
+Start time: 5:00                                      
+                                                      
+Finish time: 5:57                                   
                                                         
-Finish time: 5:57                                     
-                                                          
-Actual time needed to complete: 57 minutes               
+Actual time needed to complete: 57 minutes             
 ```
 
 **Feature 2: Allow users to vote for their favorite beast**
@@ -43,12 +30,12 @@ Actual time needed to complete: 57 minutes
 + Given that a user clicks on an image, the number of “favorites” displayed on that image will increase by one.
 
 ```javascript
-Estimate of time needed to complete: 180 minutes                   
+Estimate of time needed to complete: 180 minutes                 
 
-Start time: 6:00                                       
+Start time: 6:00                                     
+                                                  
+Finish time: 830                                   
                                                     
-Finish time: 830                                     
-                                                      
 Actual time needed to complete: 90
 ```
 
@@ -59,13 +46,13 @@ Actual time needed to complete: 90
 + Given that a user opens the application in the browser when the images are displayed on the screen, each image should be rendered in a visually pleasing way. { displayed in columns, as screen width allows }
 
 ```javascript
-Estimate of time needed to complete: 180 minutes                 
+Estimate of time needed to complete: 180 minutes               
 
-Start time: 5:00                               
-                                                
-Finish time: 8:00                          
-                                               
-Actual time needed to complete: 120 minutes    
+Start time: 5:00                             
+                                              
+Finish time: 8:00                        
+                                             
+Actual time needed to complete: 120 minutes  
 ```
 
 ✨**Stretch Goal: Add Interaction**
@@ -76,7 +63,7 @@ Actual time needed to complete: 120 minutes
   + You can update the words, change the styles or add something new. Be creative.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                       
+Estimate of time needed to complete: 60 minutes                     
 
 Start time:
 
@@ -92,7 +79,7 @@ Actual time needed to complete:
 + Given that a user wants to view the details of the image, when the user clicks on an individual image the image should render larger on the screen with the description displayed.
 
 ```javascript
-Estimate of time needed to complete: 180 minutes                       
+Estimate of time needed to complete: 180 minutes                     
 
 Start time: 5:00
 
@@ -108,7 +95,7 @@ Actual time needed to complete: 60 minutes
 + Given that a user wants to view specific images, when the user enters a character into the search field only the images matching the current set of characters should be displayed on the screen.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                         
+Estimate of time needed to complete: 60 minutes                       
 
 Start time: _____
 
@@ -124,13 +111,13 @@ Actual time needed to complete: _____
 + Given that a user is presented with filtering options, when the user clicks on one option the images should be filtered accordingly.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                       
-                                                       
-Start time: _____                                                
-                                                             
-Finish time: _____                                           
-                                                               
-Actual time needed to complete: _____ 
+Estimate of time needed to complete: 120 minutes   
+   
+Start time: 2:00  
+   
+Finish time: 4:00   
+   
+Actual time needed to complete: 120 minutes
 ```
 
 ## 🌐 R E S O U R C E S
@@ -138,6 +125,7 @@ Actual time needed to complete: _____
 * **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 🛠️
 * **.gitignore**
 * React [Documentation](https://reactjs.org/docs/getting-started.html)
+
 + { `React - Button` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/buttons/)
 + { `React - CarDeck` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/cards/)
 + { `React - Modal` } - [react-bootstrap.netlify.app](https://react-bootstrap.netlify.app/components/modal/#modals)
@@ -166,13 +154,14 @@ npm install react-bootstrap bootstrap
 
 ## 👥 C O L L A B O R A T O R S
 
-* { `Michelle` } helped me unbreak my page when It was failing to render. Turned out I only had one part of bootstrap installed. which leads me to my next thank you...
-* { `Hexx` } provided me with the `npm install react-bootstrap bootstrap` command line to ensure I'm getting all the goods when I set up a project.
+* { `Michelle` } : Helped me unbreak my page when It was failing to render. Turned out I only had one part of bootstrap installed. which leads me to my next thank you...
+* { `Hexx` } : Provided me with the `npm install react-bootstrap bootstrap` command line to ensure I'm getting all the goods when I set up a project.
 * { `Daniel` } : When it came time to sort beasts by the number of horns I brainstormed with my classmate and together we mapped out a plan of attack for how we wanted to get each of our Apps to work and then we sought TA help in the daytime before class. TA Hexx came in clutch as per usual and helped us make sense of the parts we were stuck on.
+* { `TA Paul` } : Helped me when I could not for the life of me access the input for my form in CSS. The dropdown to select Beasts by horn count initially spanned the width of the page and what I wanted was a width just outside the contents width located to the right of the label.
 
 ## 🤔 R E F L E C T I O N S
 
-* Creating templates for repetitive work makes my life simpler. Early on in the project I needed to render an image a bajillion times....! 
+* Creating templates for repetitive work makes my life simpler. Early on in the project I needed to render an image a bajillion times....!
 * I made a template so I did not miss any key pieces along the way, here's what that looked like:
 
 ````html
@@ -190,7 +179,7 @@ npm install react-bootstrap bootstrap
   + right click / inspect
   + select tool
   + target item
-  + check out `styles` 
+  + check out `styles`
   + check out `computed`
   + debug to your hearts content!
 

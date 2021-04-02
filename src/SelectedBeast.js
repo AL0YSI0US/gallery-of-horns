@@ -1,20 +1,20 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import Modal from 'react-bootstrap/Modal';
 
-import {Button, Card, Modal} from 'react-bootstrap';
-
-// x-------------------------------------------------------------------------------T O . D O-------x]]]]
+// x----------------------------------------------------------------------------(((- D O N E -)))---]]]]
 // [[[x- done]]] Create a SelectedBeast component and include it in your App.
 //
 // [[[x- done]]] Use the state in the App to render an individual beast in a 
 //               Modal in the SelectedBeast component using React Bootstrap
-//
 // [x] Import a bootstrap "Block Level Button" - https://react-bootstrap.github.io/components/buttons/ 
-// [o] Import a "DopdDown" https://react-bootstrap.netlify.app/components/dropdowns/#dropdowns  
-// [o] Style button with a hover color
-// [x] Color Background
-// [o] Set a margin of 10px between the rows
 // [x] Style the H1 [import a google font?]
+// [x] Color Background
 // [x] R E F A C T O R > C O D E
+// x-------------------------------------------------------------------------------T O . D O-------x]]]]
+// [o] Style button with a hover color
+// [o] Set a margin of 10px between the rows
 // x-------------------------------------------------------------------------------T O . D O-------x]]]]
 
 class SelectedBeast extends React.Component {
