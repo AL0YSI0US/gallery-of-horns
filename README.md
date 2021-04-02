@@ -7,6 +7,19 @@
                    " ⏰  "
 --------------------------------------------<br>
 
+````javascript
+Estimated TOTAL time needed to complete: 13 hours
+
+Actual TOTAL time needed to complete: 
+
+
+The TOTAL difference: 
+````
+
+</pre><p></p>
+</td></tr></table>
+
+
 **Feature 1: Display images**
 
 > "As a user, I want to view the images on the page so that I can browse the photo collection."
@@ -14,13 +27,13 @@
 + Given that a user opens the application in the browser, when the user navigates to the home page  the photo gallery should display all of the images in the gallery.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                  
-                                                     
-Start time: 5:00                                      
-                                                      
-Finish time: 5:57                                   
+Estimate of time needed to complete: 60 minutes                    
+                                                       
+Start time: 5:00                                        
                                                         
-Actual time needed to complete: 57 minutes             
+Finish time: 5:57                                     
+                                                          
+Actual time needed to complete: 57 minutes               
 ```
 
 **Feature 2: Allow users to vote for their favorite beast**
@@ -30,12 +43,12 @@ Actual time needed to complete: 57 minutes
 + Given that a user clicks on an image, the number of “favorites” displayed on that image will increase by one.
 
 ```javascript
-Estimate of time needed to complete: 180 minutes                 
+Estimate of time needed to complete: 180 minutes                   
 
-Start time: 6:00                                     
-                                                  
-Finish time: 830                                   
+Start time: 6:00                                       
                                                     
+Finish time: 830                                     
+                                                      
 Actual time needed to complete: 90
 ```
 
@@ -46,13 +59,13 @@ Actual time needed to complete: 90
 + Given that a user opens the application in the browser when the images are displayed on the screen, each image should be rendered in a visually pleasing way. { displayed in columns, as screen width allows }
 
 ```javascript
-Estimate of time needed to complete: 180 minutes               
+Estimate of time needed to complete: 180 minutes                 
 
-Start time: 5:00                             
-                                              
-Finish time: 8:00                        
-                                             
-Actual time needed to complete: 120 minutes  
+Start time: 5:00                               
+                                                
+Finish time: 8:00                          
+                                               
+Actual time needed to complete: 120 minutes    
 ```
 
 ✨**Stretch Goal: Add Interaction**
@@ -63,7 +76,7 @@ Actual time needed to complete: 120 minutes
   + You can update the words, change the styles or add something new. Be creative.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                     
+Estimate of time needed to complete: 60 minutes                       
 
 Start time:
 
@@ -79,7 +92,7 @@ Actual time needed to complete:
 + Given that a user wants to view the details of the image, when the user clicks on an individual image the image should render larger on the screen with the description displayed.
 
 ```javascript
-Estimate of time needed to complete: 180 minutes                     
+Estimate of time needed to complete: 180 minutes                       
 
 Start time: 5:00
 
@@ -95,7 +108,7 @@ Actual time needed to complete: 60 minutes
 + Given that a user wants to view specific images, when the user enters a character into the search field only the images matching the current set of characters should be displayed on the screen.
 
 ```javascript
-Estimate of time needed to complete: 60 minutes                       
+Estimate of time needed to complete: 60 minutes                         
 
 Start time: _____
 
@@ -175,11 +188,11 @@ npm install react-bootstrap bootstrap
 + **SHOUT OUT** to Madeline who told me to look into the CSS `!important` rule: *it will override ALL previous styling rules for that specific property on that element!*
   + The only way to override an `!important` rule is to include another `!important` rule on a declaration with the same (or higher) specificity in the source code.
 + **SHOUT OUT** to Thena for setting up peer coding seesions to get developers together coding in community spaces.  I learn so much in these spaces.
-+ **SHOUT OUT** to Faruk for imparting CSS wisdom upon me. I was walked through an inspect tool for debugging CSS.
++ **SHOUT OUT** to Faruk for imparting CSS wisdom upon me. I was walked through the inspect tool for debugging CSS.
   + right click / inspect
   + select tool
   + target item
-  + check out `styles`
+  + check out `styles` 
   + check out `computed`
   + debug to your hearts content!
 
